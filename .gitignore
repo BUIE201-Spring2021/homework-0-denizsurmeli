@@ -361,3 +361,11 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+#.vscode and .DS_Store exclusion for Mac users
+.vscode/
+.DS_Store
+
+#CMake for make file generation
+homework-0/CMakeLists.txt
+homework-0/Build/
